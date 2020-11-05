@@ -1,0 +1,20 @@
+/* .box{
+    display: flex;
+} */
+.user-ul{
+    text-decoration: none;
+    list-style: none;
+    margin: 0 -15px;
+    /* padding: 90px 0px 0px; */
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow-y: auto;
+    overflow-x: hidden;
+    max-height: 470px;
+}
+.user-ul::-webkit-scrollbar-thumb{
+    /* width: 40px; */
+    /* border: 20px solid black !important; */
+    background-color: black;
+}

@@ -1,0 +1,42 @@
+.user-li{
+    height: 70px;
+    border-bottom: 3px solid rgba(248, 252, 236, 0.5);
+    /* opacity: 0.3; */
+    /* margin: 0 -25px; */
+    /* padding-top: 10px; */
+    /* display: block; */
+    padding: 5px 60px 0px 40px;
+    cursor: pointer;
+}
+
+.user-li:last-child{
+    border-bottom: 0px solid rgba(248, 252, 236, 0.5);
+
+}
+.user-li .li-content{
+    width: 350px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.user-li:hover{
+    /* opacity: 0.5; */
+    background-color: #1256b6f6 ;
+}
+.user{
+    align-items: center;
+    padding: 8px 0;
+}
+.user-data p{
+    margin: 0px 0px;
+}
+.user-data p:last-child{
+    opacity: 0.9;
+}
+.user-li .user-img{
+    padding: 15px;    
+}
+.user-li .time{
+    align-self: inherit;
+
+}

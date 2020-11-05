@@ -1,38 +1,88 @@
-.App {
-  text-align: center;
+html,body {
+  height: 100%!important;
+  margin: 0px!important;
+}
+body{
+
+}
+body{
+  font-size: 14px;
+}
+h1,h2,h3,h4,h5,h6 {margin: 0;padding: 0;font-weight: normal;}
+
+input, button, select, textarea {outline: none;}
+
+.fixed{position: fixed;}
+.rel{position: relative;}
+.abs{position: absolute;}
+.sticky{position: sticky;}
+
+.flex{display: flex;}
+.none{display: none;}
+
+.aic{align-items: center;}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.font{
+  font-family: 'Open Sans' , sans-serif;
+  font-weight: normal;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.font1{
+  font-family: 'Open Sans' , sans-serif;
+  font-weight: 300;
 }
-
-.App-link {
-  color: #61dafb;
+.fontb{
+  font-family: 'Open Sans' , sans-serif;
+  font-weight: 700;
 }
+.b{font-weight: bold;}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.s12{font-size: 12px;}
+.s13{font-size: 13px;}
+.s14{font-size: 14px;}
+.s15{font-size: 15px;}
+.s16{font-size: 16px;}
+.s18{font-size: 18px;}
+.s20{font-size: 20px;}
+.s22{font-size: 22px;}
+.s24{font-size: 24px;}
+.s30{font-size: 30px;}
+
+.cfff{color: #cfff;}
+
+.color{color: #002f34;}
+
+.white{color: white;}
+
+.noul{text-decoration: none;}
+.noulh:hover{text-decoration: none;}
+
+.p{cursor: pointer;}
+#root {
+  /* display: flex; */
+  height: 100%!important;
+  background: rgb(76,128,228);
+  background: -moz-radial-gradient(circle, rgba(76,128,228,1) 0%, rgba(89,80,244,1) 0%, rgba(47,103,233,1) 0%, rgba(0,212,255,1) 68%, rgba(6,199,252,1) 100%);
+  background: -webkit-radial-gradient(circle, rgba(76,128,228,1) 0%, rgba(89,80,244,1) 0%, rgba(47,103,233,1) 0%, rgba(0,212,255,1) 68%, rgba(6,199,252,1) 100%);
+  background: radial-gradient(circle, rgba(76,128,228,1) 0%, rgba(89,80,244,1) 0%, rgba(47,103,233,1) 0%, rgba(0,212,255,1) 68%, rgba(6,199,252,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#4c80e4",endColorstr="#06c7fc",GradientType=1); display: grid;
+  place-items: center;
+}
+.main{
+  /* margin: 100px; */
+  height: 95vh;
+  width: 95vw;
+  min-width: 450px;
+  min-height: 550px;
+  /* background-color: burlywood; */
+  border-radius: 25px;
+  padding: 20px;
+  /* align-content: center; */
 }
